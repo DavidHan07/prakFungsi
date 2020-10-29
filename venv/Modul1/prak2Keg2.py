@@ -1,4 +1,4 @@
-angka = [3]
+angka = [5,2,-4,-5,4]
 
 
 def checker(inp):
@@ -7,9 +7,9 @@ def checker(inp):
             for y in range(2, x):
                 if x % y == 0:
                     if x % 2 == 1:
-                        print(x, 'ganjil')
+                        print(x, 'adalah bilangan ganjil')
                         break
-                    print(x, 'genap')
+                    print(x, 'adalah bilangan genap')
                     break
             else:
                 if x == 1:
